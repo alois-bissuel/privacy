@@ -29,3 +29,9 @@ Reporting relies on a combination of aggregated and [k-anonymous]((https://en.wi
 AB testing and lift measurement use a cross-channel framework. This allows for advanced AB testing, essential to all actors across the web, and fair comparisons between marketing vendors/channels, etc. This would bring much-needed clarity and transparency in measuring performance and would be a desirable improvement compared to the current situation.
 
 
+# Links to the detailed propositions
+
+* [**Reporting in BINOCULARS**](./reports.md)
+* [**AB-testing in BINOCULARS**](./AB-testing.md)
+
+
