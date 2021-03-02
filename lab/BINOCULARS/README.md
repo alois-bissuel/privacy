@@ -14,7 +14,7 @@ Any proposal that does not allow joint use, and reporting of, publisher informat
 
 # Executive Summary
 
-Reporting relies on a combination of aggregated and [k-anonymous]((https://en.wikipedia.org/wiki/K-anonymity)) granular reports, computed and secured from a user privacy standpoint by the trusted third-party server. There are four different reports:
+Reporting relies on a combination of aggregated and [k-anonymous]((https://en.wikipedia.org/wiki/K-anonymity)) granular reports, computed and secured from a user privacy standpoint by the trusted third-party server. There are four different reports, with an optional fifth one:
 
 1. A **near-real-time aggregated report**, with variable latency. This report should be "differentially private".
 2. A **delayed served ads report** for publishers. It informs about the creatives and origins of the ads such that the publisher can check if the served ads comply with its ads policy (i.e. publisher ad quality). To meet privacy constraints, a sampling mechanism could be added.
@@ -24,5 +24,8 @@ Reporting relies on a combination of aggregated and [k-anonymous]((https://en.wi
 	- A granular report with intentionally bucketed continuous variables and k-anonymity on variables shared by advertiser and publisher (information about the interest group is never available to the publisher, even with appropriate k-anonymity).
 	- A different version of this report is available for the advertiser and the publisher.
 4. An **aggregated conversion report**, including conversions by users in the control population of the lift AB test (who, by definition didn't see ads) who had opportunities to receive one.
+5. An optional **aggregated report on lost opportunities**, to enable actors to learn about lost auctions.
 
 AB testing and lift measurement use a cross-channel framework. This allows for advanced AB testing, essential to all actors across the web, and fair comparisons between marketing vendors/channels, etc. This would bring much-needed clarity and transparency in measuring performance and would be a desirable improvement compared to the current situation.
+
+
