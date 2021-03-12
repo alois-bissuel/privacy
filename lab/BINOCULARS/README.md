@@ -28,6 +28,14 @@ Reporting relies on a combination of aggregated and [k-anonymous]((https://en.wi
 
 AB testing and lift measurement use a cross-channel framework. This allows for advanced AB testing, essential to all actors across the web, and fair comparisons between marketing vendors/channels, etc. This would bring much-needed clarity and transparency in measuring performance and would be a desirable improvement compared to the current situation.
 
+# Value proposition
+
+BINOCULARS leverages a trusted third-party server to create a privacy-preserving reporting mechanism which satisfies all end parties. First and foremost, the privacy of the user is respected in a transparent and truthful way. Then, publishers and advertisers have access to logs to cater for all their needs, namely billing, fraud prevention and ad safety, ad performance and model optimization. 
+Using a trusted third-party server has a number of benefits:
+- easy aggregation of data to quickly reach privacy-preserving threshold, needing less noise than distributed systems (wherein web browsers directly send data to partners and publishers with a lot of added noise and delay)
+- truthful reporting for both advertisers and partners, which allows settling of commercial disagreement in an efficient way.
+- accountability for all parties through auditing.
+- transparency, especially to the civil society.
 
 # Links to the detailed propositions
 
